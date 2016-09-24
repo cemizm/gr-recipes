@@ -30,4 +30,4 @@ satisfy:
   pacman: rtl-sdr
 source: git+git://git.osmocom.org/rtl-sdr
 vars:
-  config_opt: ' -DDETACH_KERNEL_DRIVER=ON '
+  config_opt: ' -DDETACH_KERNEL_DRIVER=ON -DINSTALL_UDEV_RULES=ON'
