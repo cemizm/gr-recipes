@@ -19,7 +19,7 @@
 
 category: common
 depends:
-- uhd
+# - uhd
 - rtl-sdr
 - osmo-sdr
 # - hackrf
